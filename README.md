@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [interactive-rating-component-main](https://github.com/N-Ignacio-Bouffanais/interactive-rating-component-main)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Interactive-rating-component](https://n-ignacio-bouffanais.github.io/interactive-rating-component-main/)
 
 ## My process
 
