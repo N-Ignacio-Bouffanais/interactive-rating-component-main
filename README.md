@@ -13,7 +13,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
-- [Author](#Nicolas Bouffanais)
+- [Author](#Author)
 
 ## Overview
 
@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Solution](./images/solution.JPG)
 
 ### Links
 
@@ -65,6 +65,10 @@ function Submit(){
     y.style.display = "none"
     let x = document.getElementById("result")
     x.style.display = "block"
+}
+function LevelSelect(element) {
+  let one = document.getElementById("1")
+  element == one ? (one.style.color = color_sel, one.style.backgroundColor = bgcolor_sel) : (one.style.color = color_unselect, one.style.backgroundColor = bgcolor_unselect)
 }
 ```
 
