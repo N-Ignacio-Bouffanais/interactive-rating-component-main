@@ -43,22 +43,28 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
+- JavaScript
 
 ### What I learned
 
 To see how you can add code snippets, see below:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.container .level p:hover{
+    background-color: var(--Light-Grey);
+    color: var(--White);
+}
+.container .level p:active{
+    background-color: var(--Orange);
 }
 ```
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+function Submit(){
+    event.preventDefault();
+    let y = document.getElementById("rating")
+    y.style.display = "none"
+    let x = document.getElementById("result")
+    x.style.display = "block"
 }
 ```
 
