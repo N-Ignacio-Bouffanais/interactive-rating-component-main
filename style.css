@@ -72,9 +72,6 @@ main{
     background-color: var(--Light-Grey);
     color: var(--White);
 }
-.container .level p:active{
-    background-color: var(--Orange);
-}
 .container .rating-state-start button{
     color: var(--White);
     background-color: var(--Orange);
@@ -110,7 +107,6 @@ main{
     background-color: var(--Medium-Grey);
     padding: 0.5rem;
     border-radius: 3rem;
-    width: 60%;
 }
 .container .Thank-you-state h1{
     text-align: center;
