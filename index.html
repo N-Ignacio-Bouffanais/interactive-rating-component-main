@@ -20,7 +20,7 @@
   <!-- Rating state start -->
   <main>
     <div class="container">
-      <div class="rating-state-start">
+      <div id="rating" class="rating-state-start">
         <img class="star" src="./images/icon-star.svg" alt="star">
         <h1>How did we do?</h1>
         <p class="paragraph">
@@ -28,28 +28,27 @@
           is appreciated to help us improve our offering!
         </p>
         <div class="level">
-          <p>1</p>
-          <p>2</p>
-          <p>3</p>
-          <p>4</p>
-          <p>5</p>
+          <p onclick="" id="1">1</p>
+          <p onclick="" id="2">2</p>
+          <p onclick="" id="3">3</p>
+          <p onclick="" id="4">4</p>
+          <p onclick="" id="5">5</p>
         </div>
         <button onclick="Submit()" id="button">SUBMIT</button>
       </div>
-      <div class="Thank-you-state">
-        <p>You selected</p>
-        <!-- Add rating here -->
-        <span>out of 5</span>
+      <div id="result" class="Thank-you-state">
+        <img src="./images/illustration-thank-you.svg" alt="">
+        <div class="message">
+          <p>You selected <span id="select"></span>out of 5</p>
+        </div>
         <h1>Thank you!</h1>
-        <p>
+        <p class="paragraph">
           We appreciate you taking the time to give a rating. If you ever need
           more support, don’t hesitate to get in touch!
         </p>
       </div>
     </div>
   </main>
-
-  <!-- Thank you state end -->
   <footer>
     <div class="attribution">
       Challenge by

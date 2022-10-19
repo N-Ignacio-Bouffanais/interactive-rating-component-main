@@ -1,7 +1,10 @@
 function Submit(){
     event.preventDefault();
-    let y = document.getElementsByClassName("rating-state-start")
+    let y = document.getElementById("rating")
     y.style.display = "none"
-    let x = document.getElementsByClassName("Thank-you-state")
-    x.style.display = "flex"
+    let x = document.getElementById("result")
+    x.style.display = "block"
+}
+function LevelSelect(){
+    
 }

@@ -46,10 +46,11 @@ main{
     padding: 1rem;
     margin: 1rem 0;
 }
-.container .rating-state-start h1{
+.container h1{
     color: var(--White);
+    font-size: 2.4rem;
 }
-.container .rating-state-start .paragraph{
+.container .paragraph{
     color: var(--Light-Grey);
     margin: 1rem 0;
     line-height: 2.5rem;
@@ -65,6 +66,14 @@ main{
     background-color: var(--Medium-Grey);
     border-radius: 5rem;
     padding: 1.5rem 2rem;
+    cursor: pointer;
+}
+.container .level p:hover{
+    background-color: var(--Light-Grey);
+    color: var(--White);
+}
+.container .level p:active{
+    background-color: var(--Orange);
 }
 .container .rating-state-start button{
     color: var(--White);
@@ -76,10 +85,36 @@ main{
     border-style: none;
     letter-spacing: 0.1rem;
     font-weight: 700;
+}.container .rating-state-start button:hover{
+    background-color: var(--White);
+    color: var(--Orange);
+    cursor: pointer;
 }
 
 .Thank-you-state{
+    flex-direction: column;
     display: none;
+}
+.Thank-you-state img{
+    justify-self: center;
+    margin: 0 auto;
+    display: flex;
+}
+
+.container .Thank-you-state .message{
+    display: flex;
+    color: var(--Orange);
+    font-size: 1.5rem;
+    justify-content: center;
+    margin: 2rem auto;
+    background-color: var(--Medium-Grey);
+    padding: 0.5rem;
+    border-radius: 3rem;
+    width: 60%;
+}
+.container .Thank-you-state h1{
+    text-align: center;
+    margin: 2rem auto;
 }
 
 
