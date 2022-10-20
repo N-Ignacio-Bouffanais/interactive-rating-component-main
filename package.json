@@ -1,0 +1,27 @@
+{
+  "name": "interactive-rating-component-main",
+  "version": "1.0.0",
+  "description": "This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects.",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/N-Ignacio-Bouffanais/interactive-rating-component-main.git"
+  },
+  "keywords": [
+    "CSS-flexbox",
+    "HTML",
+    "JS"
+  ],
+  "author": "Nicolas Bouffanais",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/N-Ignacio-Bouffanais/interactive-rating-component-main/issues"
+  },
+  "homepage": "https://github.com/N-Ignacio-Bouffanais/interactive-rating-component-main#readme",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}

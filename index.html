@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="challenge frontend mentor code by Nicolas Bouffanais">
+  <meta name="keywords" content="css,flexbox,HTML,JavaScript">
+  <meta name="author" content="Nicolas Bouffanais">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+  <title>Interactive rating component</title>
+  <link rel="stylesheet" href="style.css" />
+  <!--Google Font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Rating state start -->
+  <main>
+    <div class="container">
+      <div id="rating" class="rating-state-start">
+        <img class="star" src="./images/icon-star.svg" alt="star">
+        <h1>How did we do?</h1>
+        <p class="paragraph">
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+        <div class="level">
+          <p onclick="LevelSelect(this)" id="1">1</p>
+          <p onclick="LevelSelect(this)" id="2">2</p>
+          <p onclick="LevelSelect(this)" id="3">3</p>
+          <p onclick="LevelSelect(this)" id="4">4</p>
+          <p onclick="LevelSelect(this)" id="5">5</p>
+        </div>
+        <button onclick="Submit()" id="button">SUBMIT</button>
+      </div>
+      <div id="result" class="Thank-you-state">
+        <img src="./images/illustration-thank-you.svg" alt="">
+        <div class="message">
+          <p>You selected <span id="select"></span> out of 5</p>
+        </div>
+        <h1>Thank you!</h1>
+        <p class="paragraph">
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don’t hesitate to get in touch!
+        </p>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="attribution">
+      <p>Challenge by&nbsp</p>
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. <p>&nbspCoded by&nbsp</p><a href="#"> Nicolas Bouffanais</a>.
+    </div>
+  </footer>
+  <script src="index.js"></script>
+</body>
+
+</html>
